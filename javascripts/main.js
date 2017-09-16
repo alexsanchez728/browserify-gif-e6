@@ -1,6 +1,7 @@
 "use strict";
 
 const doItAll = require("./data");
+const activeEvents = require("./events");
 
-
-doItAll();
+doItAll.initializer();
+activeEvents.filterEvent();
